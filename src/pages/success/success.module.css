@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.top_banner {
+    background-color: #FAFAFA;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.banner_right {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.promo {
+    color: #FC8A06;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.change_loc{
+    color: #FC8A06;
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+/*.location, .cart {
+    margin-left: 20px;
+} */
+
+.location img {
+    margin-right: 8px; 
+}
+
+.cart_img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart {
+    background-color: #028643;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    /*margin-top: 20px;
+    padding-bottom: 10px;*/
+}
+
+.fwd_btn {
+    margin-left: 90px;
+}
+
+
+.home_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.homeBtn {
+    background-color: #FC8A06;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.user_logo {
+    background-color: #03081F;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.reastaurents {
+    margin: 50px 70px;
+}
+
+.resto_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin: 0 70px;
+
+}
+
+.restos_1, .restos_2, .restos_3, 
+.restos_4, .restos_5, .restos_6 {
+    flex: 1; 
+    max-width: 210px;
+    
+}
+
+.restos_1 img, .restos_2 img, .restos_3 img, 
+.restos_4 img, .restos_5 img, .restos_6 img {
+    cursor: pointer;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+    background-color: #D9D9D9;
+    /*position: fixed;
+    bottom: 5vh;
+    left: 0;  */
+    width: 100%;
+    padding-top: 40px;
+    margin-top: 70px;
+    height: 25vh; /* */
+    text-align: left; /* */
+    /*grid-template-columns: repeat(4, 1fr); */
+}
+
+/* .footer .fcolumn_1,
+.footer .fcolumn_2,
+.footer .fcolumn_3,
+.footer .fcolumn_4 {
+    display: flex;
+
+    row-gap: 2px;
+    
+} */
+   
+
+.subscribe_btn {
+    border: 2px solid #FC8A06;
+    border-radius: 30px;
+    color: white;
+    background-color: #FC8A06;
+    padding: 5px; /* */
+}
+
+.subscribe_bar {
+    background-color: #0e03033e;
+    border: 2px solid #0e03033e;
+    border-radius: 40px;
+    padding: 5px; /* */
+}
+
+.footer a[href="#"] {
+    color: #000000 ;
+   
+    font-size: small;
+} 
+
+
+.bottom_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03081F;
+    color: white;
+    width: 100%;
+    height: 5vh; /* */
+    text-align: left;   
+    
+}
+
+.bottom_left {
+    text-align: left;
+    padding-left: 70px;
+}
+
+.bottom_right {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    padding-right: 70px;
+}

@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.top_banner {
+    background-color: #FAFAFA;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.banner_right {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.promo {
+    color: #FC8A06;
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.change_loc{
+    color: #FC8A06;
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+/*.location, .cart {
+    margin-left: 20px;
+} */
+
+.location img {
+    margin-right: 8px; 
+}
+
+.cart_img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cart {
+    background-color: #028643;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    /*margin-top: 20px;
+    padding-bottom: 10px;*/
+}
+
+.fwd_btn {
+    margin-left: 90px;
+}
+
+
+.home_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.homeBtn {
+    background-color: #FC8A06;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.user_logo {
+    background-color: #03081F;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.payContainer {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    width: 100%; 
+    margin: 40px 70px;
+}
+
+.leftPay {
+    flex: 5.5; 
+}
+
+.rightPay {
+    flex: 3; /*30%w */
+    margin-right: 70px;
+}
+
+.paymentHead {
+    display: flex;
+    align-items: center;
+}
+
+.paymentHead span {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.walletImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 60px;
+    overflow-y: hidden;
+}
+
+.walletImg div {
+    margin: 0;
+}
+
+.walletImg span {
+    flex-shrink: 0;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 20px;
+}
+ 
+.walletImg img {
+    padding-top: 15px;
+}
+
+.walletItemsP {
+    color: darkgrey;
+    font-size: small;
+}
+
+.option_1, .option_2, .option_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding:10px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.option_1 span, .option_2 span, .option_3 span {
+    padding-left: 10px;
+    margin-right: auto;
+}
+
+.addCard {
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding:10px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.addCard span {
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.rightPay {
+    border: 1px solid #03081F;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    height: 130px;
+    margin-right: 140px;
+    margin-left: 40px;
+}
+
+.rightPayDiv span {
+    display: flex;
+    justify-content: space-between; /* Pushes elements to opposite ends */
+    align-items: center; /* Aligns items vertically */
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.lpd {
+    margin: 0;
+    color: darkgrey;
+}
+
+.rpd {
+    text-align: right;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.rightPay button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid orange;
+    border-radius: 50px;
+    padding:10px;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #FC8A06;
+    color: #FAFAFA;
+}
+
+.reastaurents {
+    margin: 50px 70px;
+}
+
+.resto_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin: 0 70px;
+
+}
+
+.restos_1, .restos_2, .restos_3, 
+.restos_4, .restos_5, .restos_6 {
+    flex: 1; 
+    max-width: 210px;
+    
+}
+
+.restos_1 img, .restos_2 img, .restos_3 img, 
+.restos_4 img, .restos_5 img, .restos_6 img {
+    cursor: pointer;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: initial;
+    background-color: #D9D9D9;
+    /*position: fixed;
+    bottom: 5vh;
+    left: 0;  */
+    width: 100%;
+    padding-top: 40px;
+    margin-top: 70px;
+    height: 25vh; /* */
+    text-align: left; /* */
+    /*grid-template-columns: repeat(4, 1fr); */
+}
+
+/* .footer .fcolumn_1,
+.footer .fcolumn_2,
+.footer .fcolumn_3,
+.footer .fcolumn_4 {
+    display: flex;
+
+    row-gap: 2px;
+    
+} */
+   
+
+.subscribe_btn {
+    border: 2px solid #FC8A06;
+    border-radius: 30px;
+    color: white;
+    background-color: #FC8A06;
+    padding: 5px; /* */
+}
+
+.subscribe_bar {
+    background-color: #0e03033e;
+    border: 2px solid #0e03033e;
+    border-radius: 40px;
+    padding: 5px; /* */
+}
+
+.footer a[href="#"] {
+    color: #000000 ;
+   
+    font-size: small;
+} 
+
+
+.bottom_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03081F;
+    color: white;
+    /*position: fixed;
+    bottom: 0;
+    left: 0;  */
+    width: 100%;
+    height: 5vh; /* */
+    text-align: left;
+ 
+    
+    
+}
+
+.bottom_left {
+    text-align: left;
+    padding-left: 70px;
+}
+
+.bottom_right {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+    padding-right: 70px;
+}
+

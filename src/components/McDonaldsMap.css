@@ -1,0 +1,13 @@
+.map-container {
+    position: relative;
+    width: 100%; /* Ensures the map takes up the full width */
+    height: 500px; /* Adjust height as per your preference */
+    overflow: hidden; /* Prevents any scrollbars from appearing */
+  }
+  
+  /* Map container inside the parent div */
+  .leaflet-container {
+    width: 100%; /* Ensures the map takes up the full width */
+    height: 100%; /* Ensures the map takes up the full height */
+    display: block; /* Prevents any inline-block space or issues */
+  }
